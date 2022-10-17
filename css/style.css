@@ -1,0 +1,120 @@
+/* .navbar
+home
+about 
+projects
+contact me */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+.body {
+    background-color: #000;
+    background-image: url('/img/bg1.jpg');
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    
+} */
+.body{
+    color: white;    
+}
+.bg-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    
+    
+  }
+
+/* navbar */
+.navbar{
+    position: sticky;
+    top:0;
+}
+
+.color-white {
+    color: white;
+}
+
+a img {
+    width: 6vw;
+
+}
+
+
+
+/* home */
+.info {
+    display: inline-block;
+    margin-left: 174px;
+}
+
+.info h3 {
+    padding: 6rem;
+    padding-bottom: 2rem;
+    transition:  1.5s, height 1s, ease-in 1s;
+
+}
+
+.info h2 {
+    padding-left: 55px;
+    padding-bottom: 34px;
+    transition:  1.5s, height 1s, ease-in 1s;
+}
+
+.conatiner {
+    font-size: 23px;
+    padding-left: 44px;
+    position: relative;
+    /* float: left; */
+    transition: width 2s linear 4s;
+    top:0;
+    }
+#abt{
+    font-size:3rem ;
+    padding-left: 55px;
+    padding-bottom: 34px;
+    transition:  2s, height 2s, ease-in 2s;
+}
+
+/* .bg-img {
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    position: absolute;
+} */
+
+
+li {
+    display: inline;
+    text-decoration: none;
+    padding: 0 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    /* background-color: black; */
+
+}
+
+/* Utility classes */
+
+.yellow-color{
+    color: yellow;
+}
+a:link {
+    color: orange;
+  }
